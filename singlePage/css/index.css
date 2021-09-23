@@ -1,0 +1,150 @@
+
+
+
+   @font-face {
+    font-family: "Gotham";
+    src: url("../Gotham/Gotham_Bold/Gotham_Bold.otf");
+    font-weight: bold;
+}
+
+  
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gotham';
+}
+
+
+.logo{
+    position: relative;
+}
+
+.logo img{
+    position: relative;
+    left: 20%;
+    width: 34rem;
+    max-width: 60vw;
+}
+
+.container{
+    margin-top: 10vh;
+}
+
+.container-fluid{
+    padding: 0 7rem;
+    margin-top: 8vh;
+}
+
+
+.footer{
+    text-align: center;
+    margin: 0 5vw 5vh 5vw;
+    background-color: #5ca642;
+    padding: 8vh 0;
+    line-height: 130px;
+}
+
+.footer h2{
+    color: #1a5632;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0%;
+    font-weight: 600;
+}
+
+.footer h1{
+    color: #fff;
+    font-size: 4rem;
+    margin: 0%;
+    font-weight: 900;
+    
+}
+
+.comp-img{
+    position: relative;
+    left: 4.1%;
+}
+
+.comp-img img{
+    width: 100%;
+}
+
+.right-text{
+    position: relative;
+    right: 4.1%;
+    top: 12px;
+}
+
+.right-text h1{
+    color: hsl(104, 54%, 40%);
+    font-weight:900 ;
+    text-transform: uppercase;
+    font-size: 3.4rem;
+    word-spacing: 3px;
+    line-height: 4.1rem;
+}
+
+.right-text p{
+    text-transform: uppercase;
+    color: #1a5632;
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-spacing: 1px;
+    line-height: 2.7rem;
+}
+
+@media screen and (max-width:600px){
+
+    html{
+        font-size: 10px;
+    }
+    .right-text{
+        position: static;
+        text-align: center;
+    }
+
+
+    .footer{
+        padding: 40px 0;
+    }
+
+    .container-fluid{
+        margin-top: 5vh;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:700px){
+
+    html{
+        font-size: 12px;
+    }
+    .right-text{
+        position: static;
+        text-align: center;
+    }
+
+    .footer{
+        padding: 40px 0;
+    }
+
+}
+
+@media screen and (max-width:1000px){
+    .right-text{
+        position: static;
+    }
+
+    .comp-img{
+        position: static;
+    }
+}
+
+@media screen and (max-width:1278px){
+    .container-fluid{
+        margin-top: 5vh;
+        padding: 0 10px;
+    }
+}
